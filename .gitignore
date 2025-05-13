@@ -1,0 +1,48 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+.env
+.env.local
+.env.*.local
+
+# React
+frontend/node_modules/
+frontend/build/
+frontend/.env
+
+# VS Code settings
+.vscode/
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Database
+*.sqlite
+*.pgsql
+pgdata/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Testing
+coverage/
+jest-cache/
+jest-test-results.json
+
+# Dependency directories
+**/node_modules/
+
+# IDEs
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Misc
+*.tgz
+.cache/
