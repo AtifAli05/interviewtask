@@ -1,0 +1,9 @@
+CREATE EXTENSION IF NOT EXISTS postgis;
+
+CREATE TABLE geojson_data (
+    id UUID PRIMARY KEY,
+    name TEXT NOT NULL,
+    geojson JSONB NOT NULL,
+    geometry GEOMETRY NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
